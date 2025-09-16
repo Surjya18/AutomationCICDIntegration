@@ -14,7 +14,7 @@ public class ErrorValidation extends BaseTest{
 	public void LoginValidation () throws IOException, InterruptedException {
 		
 		// TODO Auto-generated method stub
-		landingPage.loginApplication("axyzds@gmail.com", "Saaaamsung525$");
+		landingPage.loginApplication("axyzds@gmail.com", "Saaaamsung525$"); //incorrect email id
 		Assert.assertEquals("Incorrect email or password.", landingPage.geterrorMessage());  //need to revisit
 		}
 	
