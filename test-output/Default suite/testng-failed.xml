@@ -5,7 +5,6 @@
     <classes>
       <class name="YSK.ErrorValidation">
         <methods>
-          <include name="CartValidation"/>
           <include name="launchApplication"/>
           <include name="teardown"/>
           <include name="LoginValidation"/>
