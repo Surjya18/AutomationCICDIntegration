@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="TestComponents.listeners"/>
+  </listeners>
+  <test thread-count="5" name="ErrorValidationTest(failed)" verbose="0">
+    <classes>
+      <class name="YSK.ErrorValidation">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="teardown"/>
+          <include name="LoginValidation"/>
+        </methods>
+      </class> <!-- YSK.ErrorValidation -->
+    </classes>
+  </test> <!-- ErrorValidationTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

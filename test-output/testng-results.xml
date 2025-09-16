@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-15T22:09:37 IST" name="Suite" finished-at="2025-09-15T22:09:55 IST" duration-ms="17474">
+    <groups>
+      <group name="purchaseOrder">
+        <method signature="SubmitOrder.SubmitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:YSK.SubmitOrder@3e0e1046]" name="SubmitOrder" class="YSK.SubmitOrder"/>
+      </group> <!-- purchaseOrder -->
+    </groups>
+    <test started-at="2025-09-15T22:09:37 IST" name="SubmitOrderTest" finished-at="2025-09-15T22:09:55 IST" duration-ms="17474">
+      <class name="YSK.SubmitOrder">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:YSK.SubmitOrder@3e0e1046]" started-at="2025-09-15T22:09:37 IST" name="launchApplication" finished-at="2025-09-15T22:09:40 IST" duration-ms="2248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SubmitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:YSK.SubmitOrder@3e0e1046]" started-at="2025-09-15T22:09:40 IST" name="SubmitOrder" data-provider="getData" finished-at="2025-09-15T22:09:43 IST" duration-ms="3908" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ysk@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung525$]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ZARA COAT 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:YSK.SubmitOrder@3e0e1046]" started-at="2025-09-15T22:09:43 IST" name="teardown" finished-at="2025-09-15T22:09:44 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:YSK.SubmitOrder@3e0e1046]" started-at="2025-09-15T22:09:44 IST" name="launchApplication" finished-at="2025-09-15T22:09:45 IST" duration-ms="1492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SubmitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:YSK.SubmitOrder@3e0e1046]" started-at="2025-09-15T22:09:45 IST" name="SubmitOrder" data-provider="getData" finished-at="2025-09-15T22:09:50 IST" duration-ms="4456" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test12122@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung525$]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iphone 13 pro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:YSK.SubmitOrder@3e0e1046]" started-at="2025-09-15T22:09:50 IST" name="teardown" finished-at="2025-09-15T22:09:50 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:YSK.SubmitOrder@3e0e1046]" started-at="2025-09-15T22:09:50 IST" name="launchApplication" finished-at="2025-09-15T22:09:51 IST" duration-ms="1600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistory(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:YSK.SubmitOrder@3e0e1046]" started-at="2025-09-15T22:09:51 IST" name="OrderHistory" data-provider="getData" finished-at="2025-09-15T22:09:52 IST" depends-on-methods="YSK.SubmitOrder.SubmitOrder" duration-ms="789" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ysk@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung525$]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ZARA COAT 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistory -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:YSK.SubmitOrder@3e0e1046]" started-at="2025-09-15T22:09:52 IST" name="teardown" finished-at="2025-09-15T22:09:52 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:YSK.SubmitOrder@3e0e1046]" started-at="2025-09-15T22:09:52 IST" name="launchApplication" finished-at="2025-09-15T22:09:54 IST" duration-ms="1451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistory(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:YSK.SubmitOrder@3e0e1046]" started-at="2025-09-15T22:09:54 IST" name="OrderHistory" data-provider="getData" finished-at="2025-09-15T22:09:55 IST" depends-on-methods="YSK.SubmitOrder.SubmitOrder" duration-ms="841" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test12122@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung525$]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iphone 13 pro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistory -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:YSK.SubmitOrder@3e0e1046]" started-at="2025-09-15T22:09:55 IST" name="teardown" finished-at="2025-09-15T22:09:55 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- YSK.SubmitOrder -->
+    </test> <!-- SubmitOrderTest -->
+  </suite> <!-- Suite -->
+</testng-results>
