@@ -11,7 +11,7 @@ import TestComponents.BaseTest;
 import TestComponents.Retry;
 
 public class SubmitOrder extends BaseTest{
-	String p1 ="ZARA COAT 3";
+	String p1 ="ZARA COAT 3"; //used dataprovider
 	String p2 ="iphone 13 pro";
 	
 	@Test(dataProvider = "getData", groups= {"purchaseOrder"})
